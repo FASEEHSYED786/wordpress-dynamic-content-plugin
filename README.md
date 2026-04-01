@@ -1,43 +1,35 @@
-# custom-content-display
-=== Custom Content Display ===
-Contributors: your_github_username
-Tags: content, shortcode, display
-Requires at least: 4.0
-Tested up to: 5.7
-Stable tag: 1.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+# Custom Content Display Plugin
 
-A plugin to display custom content using shortcodes.
+A custom WordPress plugin designed to dynamically display and manage content using shortcodes, with flexible backend control and scalable architecture.
 
-== Description ==
-Custom Content Display is a simple and user-friendly plugin that allows you to display custom content using shortcodes.
+---
 
-== Installation ==
-1. Upload the plugin files to the `/wp-content/plugins/custom-content-display` directory, or install the plugin through the WordPress plugins screen directly.
-2. Activate the plugin through the 'Plugins' screen in WordPress.
-3. Use the Settings->Custom Content Display screen to configure the plugin.
+## 🚀 Overview
+This plugin was developed to provide a reusable and extensible way to display dynamic content across WordPress websites. It demonstrates custom plugin development, shortcode handling, and backend logic implementation.
 
-== Frequently Asked Questions ==
+Rather than relying on static content blocks, this plugin enables developers and site administrators to control and render content programmatically.
 
-= How do I use the shortcode? =
+---
 
-Use the `[custom_content]` shortcode to display the custom content.
+## 🧠 Key Features
+- Custom shortcode system for dynamic content rendering  
+- Backend configuration support for content management  
+- Lightweight and performance-optimised structure  
+- Easy integration into existing WordPress themes  
+- Scalable architecture for extending functionality  
 
-== Changelog ==
-= 1.0 =
-* Initial release.
+---
 
-== Upgrade Notice ==
-= 1.0 =
-* Initial release.
+## 🛠️ Tech Stack
+- WordPress Plugin API  
+- PHP  
+- MySQL  
+- JavaScript (optional enhancements)  
 
-== Arbitrary section ==
+---
 
-== A brief Markdown Example ==
+## ⚙️ How It Works
+The plugin registers a custom shortcode:
 
-Ordered list:
-
-1. Item 1
-1. Item 2
-1. Item 3
+```php
+[custom_content]
